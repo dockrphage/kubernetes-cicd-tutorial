@@ -1,9 +1,9 @@
 name: CI/CD Pipeline
 on:
   push:
-    branches: [ main ]
+    branches: [ feature1 ]
   pull_request:
-    branches: [ main ]
+    branches: [ feature1 ]
 jobs:
   build-and-push:
     runs-on: self-hosted
